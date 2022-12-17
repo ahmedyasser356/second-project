@@ -13,6 +13,6 @@ jobs:
    steps:
      - name: "print name "
        run: echo Ahmed 
-     uses: actions/checkout@v3
+     - uses: actions/checkout@v3 
      - name: "all elements"
        run: ls 
